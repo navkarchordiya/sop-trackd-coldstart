@@ -1,6 +1,8 @@
 # Track D: Cold-start vs pre-warmed latency of a containerised serverless-style function
 
-SOP trial task for Dr. K Hari Babu, Track D. Navkar Chordiya, ID f20231006. **Random seed: 6.**
+SOP trial task for Dr. K Hari Babu, Track D. Navkar Chordiya, ID 2023B3A71006P. **Random seed: 6.**
+
+**Result:** median cold start 237 ms vs 1.4 ms warm (pre-warmed) and 28 ms thawed. Most of the cold start was Python recompiling its standard library; precompiling `.pyc` files in the image halved it to 123 ms. Full write-up: [docs/REPORT.md](docs/REPORT.md).
 
 **Question:** how much slower is the first request when the function's container has to start from nothing (cold), or be unfrozen (thawed), compared with a pre-warmed container that is already running?
 
@@ -28,4 +30,15 @@ Outputs: `logs/run-*.log` (exact commands + full output), `results/<run-id>/summ
 - `function/app.py`, `function/Dockerfile`: the function
 - `bench.py`: benchmark + analysis (stdlib only)
 - `run.sh`: build + run + log
-- `docs/REPORT_DRAFT.md`, `docs/NOTES_STUCK_AND_WEEK2.md`, `docs/AI_USE.md`: drafts to rewrite in your own words
+- `docs/REPORT.md`: the report
+- `docs/NOTES_STUCK_AND_WEEK2.md`: where I got stuck and how I fixed it; week-2 plan
+- `docs/AI_USE.md`: what AI tools were used for
+
+## Runs in this repo
+| run id | image | purpose |
+|---|---|---|
+| `20261103-160321` | original `python:3.12-slim` | run 1 |
+| `20261103-160350` | original | run 2 (repeatability) |
+| `20261103-160654` | + `RUN python -m compileall` (current Dockerfile) | `.pyc` experiment |
+
+To reproduce runs 1 and 2, delete the `RUN python -m compileall ...` line from `function/Dockerfile` and run `./run.sh`.
