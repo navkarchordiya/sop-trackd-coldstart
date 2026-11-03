@@ -1,0 +1,96 @@
+=== started 2026-11-03 16:06:50 IST | seed 6 (BITS ID f20231006) ===
+
+$ docker version --format '{{.Server.Version}}'
+28.3.2
+
+$ python3 --version
+Python 3.12.4
+
+$ docker build -t coldstart-fn:1.0 function
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 217B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 2.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 28B done
+#4 DONE 0.0s
+
+#5 [1/4] FROM docker.io/library/python:3.12-slim@sha256:b18b261e1b4974b4f321451ad5251ded85abb22c2b8b262da527dda1d031ab30
+#5 resolve docker.io/library/python:3.12-slim@sha256:b18b261e1b4974b4f321451ad5251ded85abb22c2b8b262da527dda1d031ab30 0.0s done
+#5 CACHED
+
+#6 [2/4] RUN python -m compileall -q /usr/local/lib/python3.12
+#6 DONE 1.3s
+
+#7 [3/4] WORKDIR /app
+#7 DONE 0.0s
+
+#8 [4/4] COPY app.py /app/app.py
+#8 DONE 0.0s
+
+#9 exporting to image
+#9 exporting layers
+#9 exporting layers 0.4s done
+#9 exporting manifest sha256:5786fe9386ecd40dc4c5e04751994a9a983c5cbd926bca96e9f9fed90e45177e
+#9 exporting manifest sha256:5786fe9386ecd40dc4c5e04751994a9a983c5cbd926bca96e9f9fed90e45177e done
+#9 exporting config sha256:8ce29521342214e8b7d93a6a07077bdc6605cfdfab8be51e0dbb60673d41e0ee done
+#9 exporting attestation manifest sha256:b6840685aaf35ecf8eee96b2ff24495c4cce5fd4d067c863511a3fc9ae23fdef done
+#9 exporting manifest list sha256:e539f092712bc4556ae10745e4d04135a3053d8f615cfda926cce8fea4c2ee9a done
+#9 naming to docker.io/library/coldstart-fn:1.0 done
+#9 unpacking to docker.io/library/coldstart-fn:1.0 0.1s done
+#9 DONE 0.5s
+
+$ python3 bench.py --trials 50
+run id 20261103-160654; 50 trials per condition (+3 warm-up); seed 6
+environment: {"host": "Darwin 27.2.0 arm64", "python_on_host": "3.12.4", "docker_server": "28.3.2 (linux/arm64)", "docker_vm_resources": "8 CPUs, 4109803520 bytes RAM", "image": "coldstart-fn:1.0", "image_size_bytes": 50545534}
+  15/150 trials done
+  30/150 trials done
+  45/150 trials done
+  60/150 trials done
+  75/150 trials done
+  90/150 trials done
+  105/150 trials done
+  120/150 trials done
+  135/150 trials done
+  150/150 trials done
+# Cold-start benchmark summary (run 20261103-160654)
+
+- Host: Darwin 27.2.0 arm64; Docker 28.3.2 (linux/arm64); VM: 8 CPUs, 4109803520 bytes RAM
+- Image coldstart-fn:1.0: 50.5 MB
+- 50 measured trials per condition (+3 warm-up each, discarded); order shuffled with seed 6
+- Polling interval 5 ms (resolution of cold/thawed timings)
+
+## Time to first successful response (ms)
+
+| condition | n | mean | stdev | min | p50 | p90 | p95 | max |
+|---|---|---|---|---|---|---|---|---|
+| cold | 50 | 124.6 | 10.2 | 109.6 | 122.9 | 133.6 | 138.7 | 174.7 |
+| thawed | 50 | 29.4 | 5.8 | 20.9 | 28.2 | 38.3 | 39.7 | 46.2 |
+| warm | 50 | 1.6 | 0.6 | 0.5 | 1.6 | 2.3 | 2.4 | 3.1 |
+
+## Differences of medians, with 95% bootstrap CI (seed 6)
+
+| comparison | difference (ms) | ratio | 95% CI (ms) |
+|---|---|---|---|
+| cold_minus_warm | +121.3 | 77.0x | [+119.8, +123.2] |
+| thawed_minus_warm | +26.6 | 17.7x | [+24.7, +28.2] |
+| cold_minus_thawed | +94.7 | 4.4x | [+92.3, +97.2] |
+
+## Where a cold start's time goes (medians, ms)
+
+- `docker run -d` command returned after: 106.7 (of which plain docker CLI overhead, from a trivial `docker inspect`: 14.1)
+- Python app init inside the container (imports + bind socket): 19.4
+- From `docker run` returning to the first response (Python start-up + the app init above + port publishing + up to one poll interval): 16.2
+- First cold starts of the session (warm-up, not in the table): 161, 124, 111
+
+results written to results/20261103-160654
+=== finished 16:07:15 | log: logs/run-20261103-160650.log ===
