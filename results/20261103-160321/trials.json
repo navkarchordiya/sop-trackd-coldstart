@@ -1,0 +1,1378 @@
+{
+ "schedule": [
+  "thawed",
+  "warm",
+  "warm",
+  "warm",
+  "cold",
+  "thawed",
+  "cold",
+  "warm",
+  "thawed",
+  "thawed",
+  "thawed",
+  "warm",
+  "cold",
+  "warm",
+  "cold",
+  "warm",
+  "cold",
+  "cold",
+  "warm",
+  "warm",
+  "cold",
+  "thawed",
+  "thawed",
+  "cold",
+  "thawed",
+  "warm",
+  "thawed",
+  "cold",
+  "cold",
+  "thawed",
+  "cold",
+  "warm",
+  "warm",
+  "thawed",
+  "thawed",
+  "thawed",
+  "thawed",
+  "warm",
+  "warm",
+  "thawed",
+  "cold",
+  "cold",
+  "thawed",
+  "cold",
+  "cold",
+  "thawed",
+  "warm",
+  "thawed",
+  "warm",
+  "thawed",
+  "warm",
+  "thawed",
+  "thawed",
+  "warm",
+  "cold",
+  "thawed",
+  "thawed",
+  "thawed",
+  "cold",
+  "warm",
+  "thawed",
+  "warm",
+  "cold",
+  "cold",
+  "warm",
+  "warm",
+  "thawed",
+  "cold",
+  "thawed",
+  "cold",
+  "cold",
+  "cold",
+  "warm",
+  "cold",
+  "warm",
+  "cold",
+  "cold",
+  "cold",
+  "thawed",
+  "cold",
+  "warm",
+  "cold",
+  "cold",
+  "warm",
+  "cold",
+  "warm",
+  "warm",
+  "thawed",
+  "warm",
+  "cold",
+  "cold",
+  "warm",
+  "cold",
+  "cold",
+  "thawed",
+  "thawed",
+  "cold",
+  "warm",
+  "warm",
+  "cold",
+  "thawed",
+  "warm",
+  "thawed",
+  "thawed",
+  "thawed",
+  "warm",
+  "thawed",
+  "cold",
+  "thawed",
+  "warm",
+  "warm",
+  "thawed",
+  "warm",
+  "warm",
+  "warm",
+  "warm",
+  "warm",
+  "warm",
+  "cold",
+  "thawed",
+  "cold",
+  "thawed",
+  "thawed",
+  "cold",
+  "warm",
+  "thawed",
+  "warm",
+  "thawed",
+  "cold",
+  "thawed",
+  "warm",
+  "cold",
+  "thawed",
+  "cold",
+  "cold",
+  "warm",
+  "thawed",
+  "warm",
+  "thawed",
+  "cold",
+  "thawed",
+  "thawed",
+  "warm",
+  "cold",
+  "cold",
+  "cold",
+  "thawed",
+  "warm",
+  "cold",
+  "warm"
+ ],
+ "trials": [
+  {
+   "total_ms": 22.856750001665205,
+   "docker_cli_ms": 20.888375001959503,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 0,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 2.2059160110075027,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 1,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 0.6132920098025352,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 2,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 2.092167007504031,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 3,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 222.24237502086908,
+   "docker_cli_ms": 95.75070801656693,
+   "app_init_ms": 122.426,
+   "poll_attempts": 20,
+   "index": 4,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 33.022375020664185,
+   "docker_cli_ms": 31.802875018911436,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 5,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 236.0049999842886,
+   "docker_cli_ms": 109.84870899119414,
+   "app_init_ms": 121.344,
+   "poll_attempts": 20,
+   "index": 6,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 1.4309579855762422,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 7,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 29.577040986623615,
+   "docker_cli_ms": 28.36654201382771,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 8,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 25.2698750118725,
+   "docker_cli_ms": 23.394042014842853,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 9,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 25.787082995520905,
+   "docker_cli_ms": 23.51095899939537,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 10,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 1.7221250163856894,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 11,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 215.26862497557886,
+   "docker_cli_ms": 89.72362498752773,
+   "app_init_ms": 122.519,
+   "poll_attempts": 19,
+   "index": 12,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 1.5664579987060279,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 13,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 238.28854100429453,
+   "docker_cli_ms": 110.11683399556205,
+   "app_init_ms": 122.592,
+   "poll_attempts": 19,
+   "index": 14,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 1.9272919744253159,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 15,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 228.89187498367392,
+   "docker_cli_ms": 104.62704199017026,
+   "app_init_ms": 121.734,
+   "poll_attempts": 19,
+   "index": 16,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 223.39675002149306,
+   "docker_cli_ms": 98.80241699283943,
+   "app_init_ms": 120.739,
+   "poll_attempts": 19,
+   "index": 17,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 3.1179169891402125,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 18,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 3.2770840043667704,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 19,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 234.2849999840837,
+   "docker_cli_ms": 110.60679200454615,
+   "app_init_ms": 122.309,
+   "poll_attempts": 19,
+   "index": 20,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 29.66616698540747,
+   "docker_cli_ms": 28.52041699225083,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 21,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 37.18574999948032,
+   "docker_cli_ms": 34.63149999151938,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 22,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 236.1352499865461,
+   "docker_cli_ms": 107.63699997914955,
+   "app_init_ms": 124.682,
+   "poll_attempts": 20,
+   "index": 23,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 60.632624983554706,
+   "docker_cli_ms": 57.82249997719191,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 24,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 1.5953750116750598,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 25,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 34.04170798603445,
+   "docker_cli_ms": 31.843582983128726,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 26,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 235.59024999849498,
+   "docker_cli_ms": 111.33870799676515,
+   "app_init_ms": 125.957,
+   "poll_attempts": 19,
+   "index": 27,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 243.59166700742207,
+   "docker_cli_ms": 120.24349998682737,
+   "app_init_ms": 125.846,
+   "poll_attempts": 19,
+   "index": 28,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 37.54770802333951,
+   "docker_cli_ms": 35.20104198832996,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 29,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 249.54062499455176,
+   "docker_cli_ms": 118.28679099562578,
+   "app_init_ms": 129.336,
+   "poll_attempts": 20,
+   "index": 30,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 1.7715410212986171,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 31,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 1.0463339858688414,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 32,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 39.21004198491573,
+   "docker_cli_ms": 36.18887500488199,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 33,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 29.323124996153638,
+   "docker_cli_ms": 27.256375004071742,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 34,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 27.18033400014974,
+   "docker_cli_ms": 25.956249999580905,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 35,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 25.793167005758733,
+   "docker_cli_ms": 24.451500008581206,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 36,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 1.2858750123996288,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 37,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 0.6853749800939113,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 38,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 26.457500003743917,
+   "docker_cli_ms": 24.06254198285751,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 39,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 228.96449998370372,
+   "docker_cli_ms": 97.18283399706706,
+   "app_init_ms": 124.454,
+   "poll_attempts": 21,
+   "index": 40,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 229.94941601064056,
+   "docker_cli_ms": 108.76549998647533,
+   "app_init_ms": 123.127,
+   "poll_attempts": 19,
+   "index": 41,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 34.551457996713,
+   "docker_cli_ms": 33.31520801293664,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 42,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 221.25620799488388,
+   "docker_cli_ms": 94.16312500252388,
+   "app_init_ms": 121.291,
+   "poll_attempts": 20,
+   "index": 43,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 243.03416701150127,
+   "docker_cli_ms": 112.77812498155981,
+   "app_init_ms": 122.82,
+   "poll_attempts": 20,
+   "index": 44,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 30.995708017144352,
+   "docker_cli_ms": 29.67120800167322,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 45,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 3.5277919960208237,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 46,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 26.532750023761764,
+   "docker_cli_ms": 24.643957993248478,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 47,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 1.0809579980559647,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 48,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 22.777791979024187,
+   "docker_cli_ms": 21.23291598400101,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 49,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 1.1292920098640025,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 50,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 23.989625013200566,
+   "docker_cli_ms": 22.781500010751188,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 51,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 26.922832999844104,
+   "docker_cli_ms": 25.415083015104756,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 52,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 1.2375419901218265,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 53,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 238.08074998669326,
+   "docker_cli_ms": 107.90974998963065,
+   "app_init_ms": 125.385,
+   "poll_attempts": 20,
+   "index": 54,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 38.30295900115743,
+   "docker_cli_ms": 36.758750007720664,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 55,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 28.792875004000962,
+   "docker_cli_ms": 27.57024997845292,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 56,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 26.872624992392957,
+   "docker_cli_ms": 25.691165996249765,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 57,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 245.8440419868566,
+   "docker_cli_ms": 120.8688750048168,
+   "app_init_ms": 127.24,
+   "poll_attempts": 19,
+   "index": 58,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 1.7386660038027912,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 59,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 42.43287499411963,
+   "docker_cli_ms": 40.647209010785446,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 60,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 1.765958993928507,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 61,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 232.00966700096615,
+   "docker_cli_ms": 105.37812500842847,
+   "app_init_ms": 126.351,
+   "poll_attempts": 19,
+   "index": 62,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 334.50724999420345,
+   "docker_cli_ms": 122.58016600389965,
+   "app_init_ms": 211.537,
+   "poll_attempts": 21,
+   "index": 63,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 1.9542499794624746,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 64,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 1.4579580165445805,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 65,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 33.709291979903355,
+   "docker_cli_ms": 31.334041996160522,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 66,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 247.50787499942817,
+   "docker_cli_ms": 115.50920901936479,
+   "app_init_ms": 133.624,
+   "poll_attempts": 19,
+   "index": 67,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 37.00345897232182,
+   "docker_cli_ms": 35.565625003073364,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 68,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 241.72808401635848,
+   "docker_cli_ms": 114.88566701882519,
+   "app_init_ms": 125.182,
+   "poll_attempts": 20,
+   "index": 69,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 237.36704100156203,
+   "docker_cli_ms": 110.60258399811573,
+   "app_init_ms": 124.351,
+   "poll_attempts": 19,
+   "index": 70,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 242.9181250045076,
+   "docker_cli_ms": 119.77679099072702,
+   "app_init_ms": 123.146,
+   "poll_attempts": 19,
+   "index": 71,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 1.7884580011013895,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 72,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 240.66108299302869,
+   "docker_cli_ms": 110.97179100033827,
+   "app_init_ms": 125.137,
+   "poll_attempts": 20,
+   "index": 73,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 1.641167007619515,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 74,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 235.06462498335168,
+   "docker_cli_ms": 100.69999998086132,
+   "app_init_ms": 127.254,
+   "poll_attempts": 20,
+   "index": 75,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 241.5082090010401,
+   "docker_cli_ms": 118.925249989843,
+   "app_init_ms": 121.711,
+   "poll_attempts": 19,
+   "index": 76,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 240.15529197640717,
+   "docker_cli_ms": 117.81366699142382,
+   "app_init_ms": 122.705,
+   "poll_attempts": 18,
+   "index": 77,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 34.424499986926094,
+   "docker_cli_ms": 33.029040991095826,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 78,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 297.0085839915555,
+   "docker_cli_ms": 168.04808398592286,
+   "app_init_ms": 125.469,
+   "poll_attempts": 20,
+   "index": 79,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 3.2126659934874624,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 80,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 247.9798750136979,
+   "docker_cli_ms": 116.26491698552854,
+   "app_init_ms": 124.394,
+   "poll_attempts": 21,
+   "index": 81,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 235.97087498637848,
+   "docker_cli_ms": 106.84929101262242,
+   "app_init_ms": 122.782,
+   "poll_attempts": 20,
+   "index": 82,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 1.3557079946622252,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 83,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 230.660999979591,
+   "docker_cli_ms": 101.61395798786543,
+   "app_init_ms": 123.459,
+   "poll_attempts": 20,
+   "index": 84,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 1.9694159855134785,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 85,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 0.743500015232712,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 86,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 32.20433299429715,
+   "docker_cli_ms": 29.388541996013373,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 87,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 1.3737499830313027,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 88,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 239.1851250140462,
+   "docker_cli_ms": 109.7465830098372,
+   "app_init_ms": 125.702,
+   "poll_attempts": 20,
+   "index": 89,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 220.68187498371117,
+   "docker_cli_ms": 97.79587498633191,
+   "app_init_ms": 121.74,
+   "poll_attempts": 19,
+   "index": 90,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 1.5312909963540733,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 91,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 225.99929201533087,
+   "docker_cli_ms": 97.43720799451694,
+   "app_init_ms": 122.498,
+   "poll_attempts": 20,
+   "index": 92,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 228.85749998386018,
+   "docker_cli_ms": 98.44704199349508,
+   "app_init_ms": 125.577,
+   "poll_attempts": 20,
+   "index": 93,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 29.012624989263713,
+   "docker_cli_ms": 26.759208005387336,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 94,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 25.04666699678637,
+   "docker_cli_ms": 23.86458299588412,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 95,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 237.5260000117123,
+   "docker_cli_ms": 111.52412500814535,
+   "app_init_ms": 122.238,
+   "poll_attempts": 20,
+   "index": 96,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 1.3529169955290854,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 97,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 1.3946249964646995,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 98,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 229.1576670249924,
+   "docker_cli_ms": 102.87191701354459,
+   "app_init_ms": 121.888,
+   "poll_attempts": 20,
+   "index": 99,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 29.557750007370487,
+   "docker_cli_ms": 28.36020800168626,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 100,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 1.338583999313414,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 101,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 25.434000010136515,
+   "docker_cli_ms": 23.432542016962543,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 102,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 25.67437500692904,
+   "docker_cli_ms": 23.340541985817254,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 103,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 24.246041983133182,
+   "docker_cli_ms": 22.998542001005262,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 104,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 2.5195830094162375,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 105,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 23.591583012603223,
+   "docker_cli_ms": 21.840875007910654,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 106,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 242.79833401669748,
+   "docker_cli_ms": 108.46304098959081,
+   "app_init_ms": 127.856,
+   "poll_attempts": 21,
+   "index": 107,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 29.714458010857925,
+   "docker_cli_ms": 28.544832981424406,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 108,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 1.1583750019781291,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 109,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 0.7002920028753579,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 110,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 29.66270799515769,
+   "docker_cli_ms": 27.711041999282315,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 111,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 1.36133300838992,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 112,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 2.0456250058487058,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 113,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 0.6200409843586385,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 114,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 1.1907079897355288,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 115,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 1.0748750064522028,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 116,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 1.006915990728885,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 117,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 226.55641700839624,
+   "docker_cli_ms": 95.37804100546055,
+   "app_init_ms": 121.81,
+   "poll_attempts": 20,
+   "index": 118,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 30.387875012820587,
+   "docker_cli_ms": 29.0358749916777,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 119,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 222.74495899910107,
+   "docker_cli_ms": 95.03083300660364,
+   "app_init_ms": 122.521,
+   "poll_attempts": 20,
+   "index": 120,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 30.317625001771376,
+   "docker_cli_ms": 29.192417016020045,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 121,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 24.39566599787213,
+   "docker_cli_ms": 22.32304197968915,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 122,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 237.81229101587087,
+   "docker_cli_ms": 111.10483400989324,
+   "app_init_ms": 124.899,
+   "poll_attempts": 20,
+   "index": 123,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 2.6337919989600778,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 124,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 30.883958999766037,
+   "docker_cli_ms": 28.64333300385624,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 125,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 1.1608330241870135,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 126,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 24.421957990853116,
+   "docker_cli_ms": 23.26549999997951,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 127,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 230.46325001632795,
+   "docker_cli_ms": 104.14308300823905,
+   "app_init_ms": 123.614,
+   "poll_attempts": 20,
+   "index": 128,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 46.43295900314115,
+   "docker_cli_ms": 45.03433400532231,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 129,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 1.367040997138247,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 130,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 251.5772909973748,
+   "docker_cli_ms": 121.88162500387989,
+   "app_init_ms": 126.127,
+   "poll_attempts": 20,
+   "index": 131,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 31.458000012207776,
+   "docker_cli_ms": 29.948208015412092,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 132,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 240.73725001653656,
+   "docker_cli_ms": 110.6763330171816,
+   "app_init_ms": 125.416,
+   "poll_attempts": 20,
+   "index": 133,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 236.4534999942407,
+   "docker_cli_ms": 103.95379099645652,
+   "app_init_ms": 122.465,
+   "poll_attempts": 21,
+   "index": 134,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 1.5516249986831099,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 135,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 30.19112499896437,
+   "docker_cli_ms": 29.072334000375122,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 136,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 1.8508339999243617,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 137,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 24.8014590179082,
+   "docker_cli_ms": 23.38558400515467,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 138,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 232.87304199766368,
+   "docker_cli_ms": 104.01366601581685,
+   "app_init_ms": 121.465,
+   "poll_attempts": 20,
+   "index": 139,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 29.35500000603497,
+   "docker_cli_ms": 28.31104100914672,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 140,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 24.436292005702853,
+   "docker_cli_ms": 23.162625002441928,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 141,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 1.7882919928524643,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 142,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 240.46291699050926,
+   "docker_cli_ms": 93.30595799838193,
+   "app_init_ms": 136.913,
+   "poll_attempts": 22,
+   "index": 143,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 236.6042500070762,
+   "docker_cli_ms": 108.51000002003275,
+   "app_init_ms": 123.84,
+   "poll_attempts": 20,
+   "index": 144,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 241.95233301725239,
+   "docker_cli_ms": 109.16508300579153,
+   "app_init_ms": 125.066,
+   "poll_attempts": 20,
+   "index": 145,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 31.263790995581076,
+   "docker_cli_ms": 29.122208012267947,
+   "app_init_ms": 136.658,
+   "poll_attempts": 1,
+   "index": 146,
+   "condition": "thawed"
+  },
+  {
+   "total_ms": 1.437375001842156,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 147,
+   "condition": "warm"
+  },
+  {
+   "total_ms": 248.68912500096485,
+   "docker_cli_ms": 120.9345409879461,
+   "app_init_ms": 122.453,
+   "poll_attempts": 20,
+   "index": 148,
+   "condition": "cold"
+  },
+  {
+   "total_ms": 1.3809999800287187,
+   "docker_cli_ms": 0.0,
+   "app_init_ms": null,
+   "poll_attempts": 1,
+   "index": 149,
+   "condition": "warm"
+  }
+ ],
+ "cli_overhead_ms": [
+  20.096207997994497,
+  16.789082990726456,
+  16.531041997950524,
+  15.742999996291474,
+  15.24912501918152,
+  14.726583001902327,
+  14.572917018085718,
+  14.566208003088832,
+  13.612624985398725,
+  13.694374996703118,
+  14.464834006503224,
+  13.771791011095047,
+  14.884500007610768,
+  13.894542003981769,
+  13.787000003503636,
+  13.336792006157339,
+  14.46791598573327,
+  13.469166995491832,
+  13.631207984872162,
+  13.591833005193621
+ ]
+}

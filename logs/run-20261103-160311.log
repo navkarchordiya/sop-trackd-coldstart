@@ -1,0 +1,123 @@
+=== started 2026-11-03 16:03:11 IST | seed 6 (BITS ID f20231006) ===
+
+$ docker version --format '{{.Server.Version}}'
+28.3.2
+
+$ python3 --version
+Python 3.12.4
+
+$ docker build -t coldstart-fn:1.0 function
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 161B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 5.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B 0.0s done
+#3 DONE 0.1s
+
+#4 [internal] load build context
+#4 transferring context: 1.93kB done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.12-slim@sha256:b18b261e1b4974b4f321451ad5251ded85abb22c2b8b262da527dda1d031ab30
+#5 resolve docker.io/library/python:3.12-slim@sha256:b18b261e1b4974b4f321451ad5251ded85abb22c2b8b262da527dda1d031ab30 0.0s done
+#5 sha256:64074ecd150a3526f7ef1af3128b9186744abfb9dc3d1c3e87c11c1ea880cbd0 0B / 251B 0.2s
+#5 sha256:0922d1fc1a5f7baa280015c744bb0be989e6e146a9181c04d2971e1273416844 0B / 1.27MB 0.2s
+#5 sha256:b41621e272b0b306c196fabab6f5e0132d1c13f3c929bfb63455191fa509e311 0B / 12.06MB 0.3s
+#5 sha256:2b70e040f7d132c8d366ee0223462552686510fb372ea5a83822973c30f19e36 0B / 30.21MB 0.2s
+#5 sha256:64074ecd150a3526f7ef1af3128b9186744abfb9dc3d1c3e87c11c1ea880cbd0 251B / 251B 0.4s done
+#5 sha256:b41621e272b0b306c196fabab6f5e0132d1c13f3c929bfb63455191fa509e311 1.05MB / 12.06MB 0.9s
+#5 sha256:b41621e272b0b306c196fabab6f5e0132d1c13f3c929bfb63455191fa509e311 4.19MB / 12.06MB 1.1s
+#5 sha256:b41621e272b0b306c196fabab6f5e0132d1c13f3c929bfb63455191fa509e311 6.23MB / 12.06MB 1.2s
+#5 sha256:b41621e272b0b306c196fabab6f5e0132d1c13f3c929bfb63455191fa509e311 7.34MB / 12.06MB 1.4s
+#5 sha256:0922d1fc1a5f7baa280015c744bb0be989e6e146a9181c04d2971e1273416844 1.27MB / 1.27MB 1.4s done
+#5 sha256:b41621e272b0b306c196fabab6f5e0132d1c13f3c929bfb63455191fa509e311 10.49MB / 12.06MB 1.5s
+#5 sha256:b41621e272b0b306c196fabab6f5e0132d1c13f3c929bfb63455191fa509e311 12.06MB / 12.06MB 1.6s done
+#5 sha256:2b70e040f7d132c8d366ee0223462552686510fb372ea5a83822973c30f19e36 4.19MB / 30.21MB 1.7s
+#5 sha256:2b70e040f7d132c8d366ee0223462552686510fb372ea5a83822973c30f19e36 7.34MB / 30.21MB 1.8s
+#5 sha256:2b70e040f7d132c8d366ee0223462552686510fb372ea5a83822973c30f19e36 10.49MB / 30.21MB 2.0s
+#5 sha256:2b70e040f7d132c8d366ee0223462552686510fb372ea5a83822973c30f19e36 13.63MB / 30.21MB 2.1s
+#5 sha256:2b70e040f7d132c8d366ee0223462552686510fb372ea5a83822973c30f19e36 17.83MB / 30.21MB 2.3s
+#5 sha256:2b70e040f7d132c8d366ee0223462552686510fb372ea5a83822973c30f19e36 20.97MB / 30.21MB 2.4s
+#5 sha256:2b70e040f7d132c8d366ee0223462552686510fb372ea5a83822973c30f19e36 24.12MB / 30.21MB 2.6s
+#5 sha256:2b70e040f7d132c8d366ee0223462552686510fb372ea5a83822973c30f19e36 28.31MB / 30.21MB 2.7s
+#5 sha256:2b70e040f7d132c8d366ee0223462552686510fb372ea5a83822973c30f19e36 30.21MB / 30.21MB 2.8s done
+#5 extracting sha256:2b70e040f7d132c8d366ee0223462552686510fb372ea5a83822973c30f19e36
+#5 extracting sha256:2b70e040f7d132c8d366ee0223462552686510fb372ea5a83822973c30f19e36 0.4s done
+#5 DONE 3.2s
+
+#5 [1/3] FROM docker.io/library/python:3.12-slim@sha256:b18b261e1b4974b4f321451ad5251ded85abb22c2b8b262da527dda1d031ab30
+#5 extracting sha256:0922d1fc1a5f7baa280015c744bb0be989e6e146a9181c04d2971e1273416844 0.0s done
+#5 extracting sha256:b41621e272b0b306c196fabab6f5e0132d1c13f3c929bfb63455191fa509e311 0.1s done
+#5 DONE 3.4s
+
+#5 [1/3] FROM docker.io/library/python:3.12-slim@sha256:b18b261e1b4974b4f321451ad5251ded85abb22c2b8b262da527dda1d031ab30
+#5 extracting sha256:64074ecd150a3526f7ef1af3128b9186744abfb9dc3d1c3e87c11c1ea880cbd0 done
+#5 DONE 3.4s
+
+#6 [2/3] WORKDIR /app
+#6 DONE 0.2s
+
+#7 [3/3] COPY app.py /app/app.py
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers 0.0s done
+#8 exporting manifest sha256:121731ac17e7cb339956848c27a4dc617038cedc9ef67142fa63428c97d17100 done
+#8 exporting config sha256:8c995757ea62c7120651c922ba973c2672268ef63b14f6d27eb500dfdc671a74 done
+#8 exporting attestation manifest sha256:f630e17ec9f6f2ad1cf7d169c4b92dd41cf1d3488e1a33aa589632774392f9eb done
+#8 exporting manifest list sha256:5a748300d42e52f4cba462e05d44d32eab7e2df8089e6d66eb3b905b4d760dd8 done
+#8 naming to docker.io/library/coldstart-fn:1.0 done
+#8 unpacking to docker.io/library/coldstart-fn:1.0 done
+#8 DONE 0.1s
+
+$ python3 bench.py --trials 50
+run id 20261103-160321; 50 trials per condition (+3 warm-up); seed 6
+environment: {"host": "Darwin 27.2.0 arm64", "python_on_host": "3.12.4", "docker_server": "28.3.2 (linux/arm64)", "docker_vm_resources": "8 CPUs, 4109803520 bytes RAM", "image": "coldstart-fn:1.0", "image_size_bytes": 43554045}
+  15/150 trials done
+  30/150 trials done
+  45/150 trials done
+  60/150 trials done
+  75/150 trials done
+  90/150 trials done
+  105/150 trials done
+  120/150 trials done
+  135/150 trials done
+  150/150 trials done
+# Cold-start benchmark summary (run 20261103-160321)
+
+- Host: Darwin 27.2.0 arm64; Docker 28.3.2 (linux/arm64); VM: 8 CPUs, 4109803520 bytes RAM
+- Image coldstart-fn:1.0: 43.6 MB
+- 50 measured trials per condition (+3 warm-up each, discarded); order shuffled with seed 6
+- Polling interval 5 ms (resolution of cold/thawed timings)
+
+## Time to first successful response (ms)
+
+| condition | n | mean | stdev | min | p50 | p90 | p95 | max |
+|---|---|---|---|---|---|---|---|---|
+| cold | 50 | 238.9 | 18.2 | 215.3 | 237.0 | 248.1 | 250.7 | 334.5 |
+| thawed | 50 | 30.5 | 6.8 | 22.8 | 29.6 | 37.6 | 41.0 | 60.6 |
+| warm | 50 | 1.6 | 0.7 | 0.6 | 1.4 | 2.5 | 3.2 | 3.5 |
+
+## Differences of medians, with 95% bootstrap CI (seed 6)
+
+| comparison | difference (ms) | ratio | 95% CI (ms) |
+|---|---|---|---|
+| cold_minus_warm | +235.5 | 163.7x | [+233.2, +238.7] |
+| thawed_minus_warm | +28.1 | 20.4x | [+25.4, +29.0] |
+| cold_minus_thawed | +207.4 | 8.0x | [+205.3, +211.1] |
+
+## Where a cold start's time goes (medians, ms)
+
+- `docker run -d` command returned after: 109.0 (of which plain docker CLI overhead, from a trivial `docker inspect`: 14.5)
+- Python app init inside the container (imports + bind socket): 123.7
+- From `docker run` returning to the first response (Python start-up + the app init above + port publishing + up to one poll interval): 128.0
+- First cold starts of the session (warm-up, not in the table): 257, 223, 222
+
+results written to results/20261103-160321
+=== finished 16:03:48 | log: logs/run-20261103-160311.log ===
